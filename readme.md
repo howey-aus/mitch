@@ -29,5 +29,5 @@ $ mitch
 The following command will cause mitch to be run when a new shell session is initiated on most *nixes (Linux, macOS etc)
 
 ```
-$ touch ~/.bashrc && echo -n "\n# Print mitch quote\nmitch\n\n" >> ~/.bashrc 
+$ touch ~/.bashrc && echo -ne "\n# Print mitch quote\nmitch\n\n" >> ~/.bashrc 
 ```
