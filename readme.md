@@ -16,6 +16,15 @@ $ sudo sh -c 'curl -sSL https://raw.githubusercontent.com/howey-aus/mitch/master
 $ mitch
 ```
 
+### Example:
+
+```
+$ mitch
+
+ I got an ant farm. Them fellas didn't grow shit!
+
+```
+
 ## Run on shell login
 
 The following command will cause `mitch` to be run when a new shell session is initiated on most *nixes (Linux, macOS etc) without clobbering any existing motd that you may have:
