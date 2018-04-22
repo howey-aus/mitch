@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -e
-SCRIPT="https://..."
+SCRIPT="https://raw.githubusercontent.com/howey-aus/mitch/master/mitch"
 
 if [[ $(id -u) -ne 0 ]]; then
   echo "This script requires root priveleges to install to /usr/local/bin."
