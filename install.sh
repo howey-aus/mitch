@@ -10,6 +10,6 @@ if [[ $(id -u) -ne 0 ]]; then
 fi
 
 mkdir -p "$DEST"
-curl -o "${DEST}/mitch" "$SCRIPT"
+curl -sSL -o "${DEST}/mitch" "$SCRIPT"
 chmod +x "${DEST}/mitch"
 echo "mitch successfully installed to ${DEST}."

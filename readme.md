@@ -7,13 +7,13 @@ Print a random one-line quote by the legendary Mitch Hedberg
 Call the all-in-one command as root:
 
 ```
-# curl https://raw.githubusercontent.com/howey-aus/mitch/master/install.sh | bash -s
+# curl -sSL https://raw.githubusercontent.com/howey-aus/mitch/master/install.sh | bash -s
 ```
 
 or alternatively using sudo:
 
 ```
-$ sudo sh -c 'curl https://raw.githubusercontent.com/howey-aus/mitch/master/install.sh | bash -s'
+$ sudo sh -c 'curl -sSL https://raw.githubusercontent.com/howey-aus/mitch/master/install.sh | bash -s'
 ```
 
 ## Running 
