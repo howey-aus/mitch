@@ -5,7 +5,8 @@
 # See LICENSE for details
 
 OLDIFS="$IFS"
-IFS=$'\n' read -d '' -r -a QUOTES <<EOF
+IFS=$'\n'
+read -d '' -r -a QUOTES <<EOF
 I travel with a boom box. When I get on a plane, I stuff the power cord for the boom box into the battery compartment. From an outsider's point of view, it looks like I've got it all wrong.
 Advil has a candy coating. It's delicious. And it says right on the bottle "Do not have more than two." Well then do not put a candy coating around it.
 I had a job interview at an insurance company once and the lady said "Where do you see yourself in five years?" I said "Celebrating the fifth year anniversary of you asking me this question."
