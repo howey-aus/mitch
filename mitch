@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Copyright (C) 2008 Dan Howe <https://github.com/howey-aus>
+
+# See LICENSE for details
+
 OLDIFS="$IFS"
 IFS=$'\n' read -d '' -r -a QUOTES <<EOF
 I travel with a boom box. When I get on a plane, I stuff the power cord for the boom box into the battery compartment. From an outsider's point of view, it looks like I've got it all wrong.

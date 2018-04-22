@@ -7,7 +7,7 @@ Print a random one-line quote by the legendary Mitch Hedberg
 Call the all-in-one command as root:
 
 ```
-# curl mitch/install.sh | bash -s
+# curl https://raw.githubusercontent.com/howey-aus/mitch/master/install.sh | bash -s
 ```
 
 or alternatively using sudo:
