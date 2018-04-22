@@ -12,8 +12,6 @@ Call the all-in-one command as root:
 
 or alternatively using sudo:
 
-And repeat
-
 ```
 $ sudo sh -c 'curl https://raw.githubusercontent.com/howey-aus/mitch/master/install.sh | bash -s'
 ```
